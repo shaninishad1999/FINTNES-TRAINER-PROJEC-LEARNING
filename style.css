@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar start */
+nav {
+    background-color: #100f3d;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav .logo{
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+nav ul li{
+    margin-right: 30px;
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+nav ul li a:hover{
+    border: 4px red ;
+    border-bottom-style: dashed;
+    
+}
+
+/* Navbar close */
+
+/* Hero Section start */
+.hero{
+    background: url(/images/BACK.png) no-repeat center/cover;
+    /* background: url(/images/backgorun.jpg) no-repeat center center/cover; */
+    /* background: url(/images/background\ 2.png) no-repeat center center/cover */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+    
+}
+
+.hero h1{
+    color: white;
+    font-size: 128px;
+    margin-right: 90px;
+    margin-top: 50PX;
+    
+
+}
+.hero button{
+    font-size: 15px;
+    margin-right: 80px;
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F34E3A;
+    color: white;
+}
+
+.hero button:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+/* .hero_image{
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* height: 80vh; 
+    padding-left: 1550px; */
+    /* padding-right: 100px; */
+  
+    
+    /* margin-bottom: 240px;
+    margin-right: 310px;
+} */ 
+
+
+/* Hero Section Close */
+
+/* About Me section  start*/
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 100px; */
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+   
+}
+.aboutme h1{
+    font-size: 48px;
+    margin-top: 50px;
+   
+}
+
+.aboutme p{
+    line-height: 1.7;
+    word-spacing: 2.0px;
+    /* padding-right: 150px; */
+}
+
+.underline1{
+    border-bottom: 4px solid aqua;
+    margin-left: 2%;
+    margin-right: 85%;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px; 
+    
+    
+}
+.about-img img{
+  margin-left: 80px;
+  margin-right: 120px;
+  width: 650px;
+ padding-right: 40px;
+
+  
+}
+.about-img h3{
+    margin-top:25px ;
+    font-size: 21px;
+    font-weight: 800px;
+    margin-left: 80px;
+}
+
+.aboutme h5{
+    font-size: 20px;
+    margin-top:20px;
+    padding-right: 30px;
+
+}
+.logo-img{
+    display: flex;
+    padding-top: 40px;
+    align-items: self-start;
+    word-spacing: 2;
+    
+}
+.log-img img{
+    
+}
+
+
+
+
+/* About Me Section Close */
+
+/* placement  */
+.placement{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.placement h1{
+    font-size: 48px;
+    font-family: sans-serif;
+}
+.placement p{
+    line-height: 2.0;
+    font-family: sans-serif;
+}
+.placment-training{
+  width: 800px;
+  padding-left: 150px;
+  padding-right: 20px;
+}
+
+.placement-service-list {
+    
+}
+.placement-service-list ul{
+ width: 650px;  
+ list-style: none; 
+ line-height: 2.0;
+ font-family: sans-serif;
+
+
+} 
+.placement-service-list i{
+    margin-right: 20px;color: #F34E3A;
+   font-size: 12px;
+}
+
+
+/* placement close */
+
+
+/* training section start */
+
+#training-section{
+    background: url(/images/training-image.jpg) no-repeat center/cover;
+    height: 100vh;
+    
+}
+
+.table{
+    padding-top: 50px;
+    padding-left: 150px;
+    color: #F6432E;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.training-section-table{
+    padding-top: 50px;
+}
+
+.table tr {
+  height: 5vh;
+  width: 800px;
+}
+.table tr th{
+    width: 250px;
+    font-size: 20px;
+    
+}
+.table tr td{
+    text-align: left;
+    padding-left: 85px;
+}
+hr{
+    margin-left: 15%;
+    margin-right: 40%;
+}
+
+
+/* Training section close */
+
+/* Training Section  */
+
+#training{
+ margin-top: 100px;
+ margin-left: 140px;
+ margin-bottom: 100px;
+}
+#training h1{
+    font-size: 48px;
+}
+#training p{
+    margin-left: 20px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    
+}
+.img-div{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+    
+}
+.img-div img{
+    width: 380px;
+    height: 600px;
+    
+}
+.img-div2{
+    position: relative;
+    font-family: Arial;
+  }
+  
+.image-element {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  /*  */
+
+.image-element h2{
+    font-size: 40px;
+    color: rgb(241, 33, 10);
+
+    
+}
+.image-element h6{
+    font-size: 17px;
+    margin-top: 20px;
+    color: rgb(255, 234, 0);
+    font-weight: 200;
+    font-weight: 800;
+    
+}
+.image-element ul{
+    padding-bottom: 150px;
+}
+.image-element ul li{
+    list-style: none;
+    line-height: 2.0;
+    color: rgb(255, 234, 0);
+    font-weight: 200;
+   
+}
+
+button{
+    margin-top: 150px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #fa1d04;
+    font-style: bold;
+}
+button:hover{
+    background-color: purple;
+}
+
+.image-element1{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.ragistrain-btn{
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+.ragistrain-btn2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.ragistrain-btn3{
+    margin-top: 0px;
+    margin-bottom: 80px;
+
+}
+.image-element2 {
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+
+.image-element3 {
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .T-hr{
+    margin-left: -10%;
+    margin-right: -5% ;
+    color: transparent;
+  }
+
+  /* Training rates section close */
+
+/* Training Gallary start */
+.gallry{
+ 
+    background-color: #1A1A1A;
+    height: 150vh;
+    padding-bottom: 1100px;
+    width: auto;
+}
+.gallry h1{
+    font-size: 230px;
+    color: white;
+    opacity: 0.1;
+    text-align: center;
+    font-family: sans-serif;
+   margin-top: -230px;
+   font-weight: 900;
+   
+}
+.gallry-heading h2{
+    color: white;
+    font-family: sans-serif;
+    padding: 100px  0px 20px 150px;
+    font-size: 48px;
+}
+.underline2{
+    border-bottom: 4px solid aqua;
+    margin-left: 10%;
+    margin-right: 82%;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.gallry-heading p{
+    color: white;
+    font-family: sans-serif;
+    padding: 20px  800px 20px 150px;
+    line-height: 2.0;
+    word-spacing: 2.0;
+}
+.gallry-image img{
+   padding-left: 100px;
+   text-align: center;
+   margin-top: -80px;
+   padding-left: 160px;
+}
+
+/* Training gallary close */
+
+/* My Client section start */
+
+.my-client{
+    height: 150vh;
+    display: flex;
+    
+}
+
+.underline3{
+    border-bottom: 4px solid aqua;
+    margin-left: 10%;
+    margin-right: 82%;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.container{
+    margin-top: 40px;
+    border: 200px solid #fdd2cd;
+    border-radius: 50%;
+    width: 2600px;
+    height: 1000px
+}
+
+
+
+
+/* My Client secton close */
+
+
+
