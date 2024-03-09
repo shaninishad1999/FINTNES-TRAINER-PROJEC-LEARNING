@@ -35,6 +35,7 @@ nav ul li a{
 nav ul li a:hover{
     border: 4px red ;
     border-bottom-style: dashed;
+    color:aqua;
     
 }
 
@@ -42,17 +43,14 @@ nav ul li a:hover{
 
 /* Hero Section start */
 .hero{
-    background: url(/images/BACK.png) no-repeat center/cover;
-    /* background: url(/images/backgorun.jpg) no-repeat center center/cover; */
-    /* background: url(/images/background\ 2.png) no-repeat center center/cover */
-    height: 85vh;
+    
+    background: url(/images/hero-section-image.png) no-repeat center/cover;
+     height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
- 
-    
+    text-align: center;   
 }
 
 .hero h1{
@@ -60,8 +58,6 @@ nav ul li a:hover{
     font-size: 128px;
     margin-right: 90px;
     margin-top: 50PX;
-    
-
 }
 .hero button{
     font-size: 15px;
@@ -78,18 +74,6 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-/* .hero_image{
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* height: 80vh; 
-    padding-left: 1550px; */
-    /* padding-right: 100px; */
-  
-    
-    /* margin-bottom: 240px;
-    margin-right: 310px;
-} */ 
-
 
 /* Hero Section Close */
 
@@ -97,10 +81,9 @@ nav ul li a:hover{
 .aboutme{
     display: flex;
     justify-content: space-between;
-    /* margin: 100px; */
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
    
 }
 .aboutme h1{
@@ -153,10 +136,6 @@ nav ul li a:hover{
     word-spacing: 2;
     
 }
-.log-img img{
-    
-}
-
 
 
 
@@ -165,8 +144,9 @@ nav ul li a:hover{
 /* placement  */
 .placement{
     display: flex;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     justify-content: space-between;
+    padding-top: 100px;
 }
 .placement h1{
     font-size: 48px;
@@ -182,9 +162,6 @@ nav ul li a:hover{
   padding-right: 20px;
 }
 
-.placement-service-list {
-    
-}
 .placement-service-list ul{
  width: 650px;  
  list-style: none; 
@@ -209,13 +186,19 @@ nav ul li a:hover{
     height: 100vh;
     
 }
-
+#training-section{
+    background-color: #1A1A1A;
+    opacity: 0.9;
+}
 .table{
     padding-top: 50px;
     padding-left: 150px;
-    color: #F6432E;
-font-weight: 800;
-padding-bottom: 20px;
+    color: #ff1c02;
+    font-weight: 800;
+    padding-bottom: 20px;
+   
+    
+
 }
 .training-section-table{
     padding-top: 50px;
@@ -242,12 +225,13 @@ hr{
 
 /* Training section close */
 
-/* Training Section  */
+/* Training  rates Section  start */
 
 #training{
- margin-top: 100px;
+ padding-top: 100px;
  margin-left: 140px;
  margin-bottom: 100px;
+ 
 }
 #training h1{
     font-size: 48px;
@@ -431,25 +415,241 @@ button:hover{
 
 .underline3{
     border-bottom: 4px solid aqua;
-    margin-left: 10%;
-    margin-right: 82%;
+    margin-left: 28%;
+    margin-right: 52%;
     align-items: center;
     padding-top: 10px;
     
+    
 }
 
+.my-client-heading h1{
+    padding-top: 320px;
+    font-size: 48px;
+    margin-left: 160px;
+    padding-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.my-client-heading p{
+    margin-left: 160px;
+    padding-top: 15px;
+    line-height: 1.7;
+    padding-right: 55px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
 .container{
     margin-top: 40px;
     border: 200px solid #fdd2cd;
     border-radius: 50%;
     width: 2600px;
     height: 1000px
+    
+}
+.container .image1{
+    position:relative;
+    top: -300px;
+   
+    padding-left: 280px;
+    
+}
+.container .image1 h6{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.container .image1 p{
+    padding-top: 5px;
+    padding-left: 70px;  
+}
+
+.container .image2{
+    position: relative;
+    top: -380px;
+    right: 110px;
+}
+.container .image2 h6{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.container .image2 p{
+    padding-top: 5px;
+    padding-left: 90px;
+
+}
+
+.container .image3{
+    position: relative;
+    top: -300px;
+    right: 90px;
+    /* margin-right: 180px; */
+    /* width: fit-content; */
+   
+}
+
+.container .image3 h6{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.container .image3 p{
+    padding-top: 5px;
+    padding-left: 70px;
+
+}
+
+.container .image4{
+    position: relative;
+    top: -850px;
+    right: -280px;
+    margin-right: 80px;
+   
+}
+.container .img{
+    margin-right: 50px;
+}
+.container .image4 h6{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.container .image4 p{
+    padding-top: 5px;
+    padding-left: 70px;
+
+}
+.container .image5{
+    position: relative;
+    top: -800px;
+    right: -280px;
+    margin-right: 80px;
+   
+}
+.container .image5 h6{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.container .image5 p{
+    padding-top: 5px;
+    padding-left: 70px;
+
+}
+
+/* My Client secton close */
+
+/* people say section  start*/
+.people-say{
+    margin-top: 20px;
+    background: url(/images/aboutmeimage.png);
+    height: 75vh;
+    color: white;
+    width: auto;
+    position: c;
+}
+.people-say-heading h1{
+    padding-top: 110px;
+    font-size: 48px;
+    padding-left: 160px;
+    padding-bottom: 20px;
+
+}
+.quates{
+    padding-left: 160px;
+    font-size: 90px;
+   
+}
+.people-say-heading p{
+    padding-top: 5px;
+    padding-left: 160px;
+    padding-right: 750px;
+    line-height: 2.0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+strong{
+    padding-left: 160px;   
+    font-size: 20px;
+}
+
+/* people say  section close  */
+
+/* Contact us section start */
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 90vh;
+    padding-top: 150px;
+    color: white;
+    padding-bottom: 550px;
+    
+}
+
+.contact .contactlogo {
+    margin-left: 150px;
+    line-height: 1.7;
+}
+.contactlogo p{
+    font-size: 18px;
+    margin-right: 50px;
+}
+.contact .contactme{
+    margin-left: 40px;
+    margin-right: 140px;
+    
+}
+.contact .contactme address{
+    line-height: 1.8;
+    margin-top: 40px;
+}
+.contact .contact-form h1{
+    font-size: 25px;
+    
+}
+.contact-form{
+    margin-right: 140px;
+}
+.input-field input{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.contact-form ::placeholder{
+    font-size: 20px;
+  padding-left: 10px;
+   
+}
+
+
+/* Contact us section close */
+
+/* footer  section start */
+
+footer{
+    height: 11vh;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-footer p{
+margin-left: 160px;
+}
+.right-footer{
+    text-align: right;
+    margin-right: 170px;
+}
+.input-field-btn button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
 }
 
 
 
-
-/* My Client secton close */
-
-
+/* footer section start */
 
