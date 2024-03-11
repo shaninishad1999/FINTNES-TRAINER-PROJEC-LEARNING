@@ -141,12 +141,12 @@ nav ul li a:hover{
 
 /* About Me Section Close */
 
-/* placement  */
+/* Personal Training section start placement  */
 .placement{
     display: flex;
     padding-bottom: 80px;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .placement h1{
     font-size: 48px;
@@ -157,9 +157,7 @@ nav ul li a:hover{
     font-family: sans-serif;
 }
 .placment-training{
-  width: 800px;
-  padding-left: 150px;
-  padding-right: 20px;
+  margin-right: 100px;
 }
 
 .placement-service-list ul{
@@ -176,7 +174,7 @@ nav ul li a:hover{
 }
 
 
-/* placement close */
+/* Personal Training section start placement close */
 
 
 /* training section start */
@@ -195,9 +193,7 @@ nav ul li a:hover{
     padding-left: 150px;
     color: #ff1c02;
     font-weight: 800;
-    padding-bottom: 20px;
-   
-    
+    padding-bottom: 20px;  
 
 }
 .training-section-table{
@@ -231,16 +227,15 @@ hr{
  padding-top: 100px;
  margin-left: 140px;
  margin-bottom: 100px;
- 
 }
 #training h1{
     font-size: 48px;
+    margin-left: 20px;
 }
 #training p{
     margin-left: 20px;
     font-family: sans-serif;
-    margin-bottom: 60px;
-    
+    margin-bottom: 60px; 
 }
 .img-div{
     display: flex;
@@ -250,8 +245,7 @@ hr{
 }
 .img-div img{
     width: 380px;
-    height: 600px;
-    
+    height: 600px; 
 }
 .img-div2{
     position: relative;
@@ -260,20 +254,15 @@ hr{
   
 .image-element {
     position: absolute;
-    bottom: 5px;
-    right: 20px;
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    left: 40px;
+    top: 80px;
     
   }
-  /*  */
-
+ 
 .image-element h2{
-    font-size: 40px;
-    color: rgb(241, 33, 10);
-
-    
+    font-size: 30px;
+    color: rgb(241, 33, 10); 
 }
 .image-element h6{
     font-size: 17px;
@@ -283,9 +272,6 @@ hr{
     font-weight: 800;
     
 }
-.image-element ul{
-    padding-bottom: 150px;
-}
 .image-element ul li{
     list-style: none;
     line-height: 2.0;
@@ -293,70 +279,51 @@ hr{
     font-weight: 200;
    
 }
-
-button{
-    margin-top: 150px;
+button:hover{
+    background-color:transparent;
+    color: blue;
+}
+.ragistrain-btn{
     cursor: pointer;
-    margin-bottom: 20px;
+    color: #fa1d04;
+    font-style: bold;
+    margin-top: 120px;
+    background-color: transparent;
+    border: none;
+    margin-top: 300px;
+}
+.ragistrain-btn2{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border: none;
+    cursor: pointer;
     background-color: transparent;
     color: #fa1d04;
     font-style: bold;
-}
-button:hover{
-    background-color: purple;
-}
-
-.image-element1{
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-.ragistrain-btn{
-    margin-top: 180px;
-    margin-bottom: 40px;
-}
-.ragistrain-btn2{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 165px;
 }
 .ragistrain-btn3{
-    margin-top: 0px;
-    margin-bottom: 80px;
-
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fa1d04;
+    font-style: bold;
+    margin-top: 100px;
 }
-.image-element2 {
-    position: absolute;
-    bottom: -10px;
-    right: 20px;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-  }
 
-
-.image-element3 {
-    position: absolute;
-    bottom: -50px;
-    right: 20px;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-  }
   .T-hr{
-    margin-left: -10%;
+    margin-left: 0%;
     margin-right: -5% ;
     color: transparent;
   }
 
   /* Training rates section close */
 
+
+
+
+
+  
 /* Training Gallary start */
 .gallry{
  
